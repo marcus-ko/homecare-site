@@ -5706,6 +5706,8 @@ input[type="button"].btn-block {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.5rem 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* line 28, node_modules/bootstrap/scss/_navbar.scss */
@@ -6297,6 +6299,10 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+#heroSection {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* line 5, node_modules/bootstrap/scss/_card.scss */
 .card {
   position: relative;
